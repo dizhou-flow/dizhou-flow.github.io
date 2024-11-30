@@ -22,7 +22,7 @@ My appreciation for scenery strongly influences my ratings—mountains are my fa
 * Yellowstone
 * Grand Canyon
 
-2, A Tier (Exceptional Destinations): Parks in this tier offer exceptional views and experiences that merit a special trip. Ideal for those spending an extended period in the U.S., these parks offer a blend of majestic scenery and unique natural features that are well worth exploring in-depth. Each park has a distinct appeal that makes it a special destination.
+2, A Tier (Exceptional Destinations): Parks in this tier offer exceptional views and experiences that merit a special trip. Ideal for those spending an extended period in the U.S., these parks feature a blend of majestic scenery and unique natural features that are well worth exploring in-depth. Each park has a distinct appeal that makes it a special destination.
 
 * Arches
 * Olympic
