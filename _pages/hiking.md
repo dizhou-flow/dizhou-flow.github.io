@@ -28,10 +28,10 @@ My appreciation for scenery strongly influences my ratings—mountains are my fa
 * Olympic
 * Crater Lake
 * Grand Teton
-* Canyonlands
-* Bryce Canyon
 * Capitol Reef
 * Kenai Fjords
+* Canyonlands
+* Bryce Canyon
 * Mount Rainier
 * Rocky Mountain
 
@@ -42,18 +42,18 @@ My appreciation for scenery strongly influences my ratings—mountains are my fa
 * Haleakalā
 * Volcanoes
 * Everglades
-* White Sands
 * Death Valley
+* White Sands
 * Kings Canyon
 * Black Canyon
 * Carlsbad Caverns
-* Great Sand Dunes
 * Wrangell-St. Elias
+* Great Sand Dunes
 
 4, C Tier (Local Charms): While the scenery of these parks might be less amazing, they offer pleasing landscapes and are worth visiting if you are local or passing through the area. They might not be destinations to plan a trip around without other reasons to be nearby, but they can provide a delightful escape into nature.
 
 * Joshua Tree
-* Mammoth Cave
 * Indiana Dunes
+* Mammoth Cave
 * Guadalupe Mountains
 * Great Smoky Mountains
