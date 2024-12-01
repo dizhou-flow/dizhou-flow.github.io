@@ -14,7 +14,7 @@ My appreciation for scenery strongly influences my ratings—mountains are my fa
 
 ![alt text](https://github.com/dizhou-flow/dizhou-flow.github.io/blob/master/assets/images/my-image.png?raw=true)
 
-1, S Tier (Must-See Landmarks): These are the crown jewels of national parks according to my experiences. They offer breathtaking landscapes that are often iconic representations of natural beauty in the U.S. If your time in the U.S. is limited, these parks provide unforgettable experiences that define the majesty of the country's wilderness.
+1, S Tier (Must-See Landmarks): These are the crown jewels of national parks according to my experiences. They offer breathtaking landscapes that are often iconic representations of natural beauty in the United States. If your time in the U.S. is limited, these parks provide unforgettable experiences that define the majesty of the country's wilderness.
 
 * Zion
 * Denali
