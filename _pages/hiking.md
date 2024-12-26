@@ -46,10 +46,10 @@ My appreciation for scenery strongly influences my ratings—mountains are my fa
 * White Sands
 * Kings Canyon
 * Black Canyon
+* Petrified Forest
 * Carlsbad Caverns
 * Wrangell-St. Elias
 * Great Sand Dunes
-* Petrified Forest
 
 4, C Tier (Local Charms): While the scenery of these parks might be less amazing, they offer pleasing landscapes and are worth visiting if you are local or passing through the area. They might not be destinations to plan a trip around without other reasons to be nearby, but they can provide a delightful escape into nature.
 
