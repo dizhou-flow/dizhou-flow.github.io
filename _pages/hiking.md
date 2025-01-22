@@ -14,6 +14,8 @@ My appreciation for scenery strongly influences my ratings—mountains are my fa
 
 ![alt text](https://github.com/dizhou-flow/dizhou-flow.github.io/blob/master/assets/images/my-image.png?raw=true)
 
+For a closer look at the stunning beauty of these national parks, please visit my photo album [here](https://flic.kr/s/aHBqjBVePB).
+
 1, S Tier (Must-See Landmarks): These are the crown jewels of national parks according to my experiences. They offer breathtaking landscapes that are often iconic representations of natural beauty in the United States. If your time in the U.S. is limited, these parks provide unforgettable experiences that define the majesty of the country's wilderness.
 
 * Zion
