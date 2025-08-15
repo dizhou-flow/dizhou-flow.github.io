@@ -36,10 +36,13 @@ For a closer look at the stunning beauty of these national parks, please visit m
 * Bryce Canyon
 * Mount Rainier
 * Rocky Mountain
+* North Cascades
+* Lassen Volcanic
 
 3, B Tier (Worthy Detours): These parks are perfect for those traveling nearby and offer very good views or unique activities that justify a detour. While they might not inspire the same admiration as higher-tier parks, their beauty and recreational opportunities are significant enough to enhance any road trip or local adventure.
 
 * Sequoia
+* Redwood
 * Pinnacles
 * Haleakalā
 * Volcanoes
@@ -50,6 +53,7 @@ For a closer look at the stunning beauty of these national parks, please visit m
 * Black Canyon
 * Petrified Forest
 * Carlsbad Caverns
+* Channel Islands
 * Wrangell-St. Elias
 * Great Sand Dunes
 
@@ -59,5 +63,6 @@ For a closer look at the stunning beauty of these national parks, please visit m
 * Joshua Tree
 * Indiana Dunes
 * Mammoth Cave
+* Gateway Arch
 * Guadalupe Mountains
 * Great Smoky Mountains
