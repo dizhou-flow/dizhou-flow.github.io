@@ -52,8 +52,8 @@ For a closer look at the stunning beauty of these national parks, please visit m
 * Kings Canyon
 * Black Canyon
 * Petrified Forest
-* Carlsbad Caverns
 * Channel Islands
+* Carlsbad Caverns
 * Wrangell-St. Elias
 * Great Sand Dunes
 
@@ -61,8 +61,8 @@ For a closer look at the stunning beauty of these national parks, please visit m
 
 * Saguaro
 * Joshua Tree
+* Gateway Arch
 * Indiana Dunes
 * Mammoth Cave
-* Gateway Arch
 * Guadalupe Mountains
 * Great Smoky Mountains
