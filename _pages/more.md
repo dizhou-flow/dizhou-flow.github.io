@@ -11,7 +11,7 @@ published: true
   <article class="feature-card">
     <p class="section-kicker">Personal</p>
     <h2>Hiking</h2>
-    <p>Travel notes, national park reflections, and outdoor photography remain available as a lighter personal section of the site.</p>
+    <p>A personal collection of national park rankings, favorite scenic places, and memorable day hikes from travels across the United States.</p>
     <a class="feature-card__link" href="{{ '/hiking/' | relative_url }}">Open hiking page</a>
   </article>
 </div>
