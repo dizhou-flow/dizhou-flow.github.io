@@ -387,7 +387,7 @@ blockquote {
 .home-feature-grid,
 .more-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
   margin-bottom: 1.75rem;
 }
@@ -420,15 +420,21 @@ blockquote {
   gap: 1rem;
 }
 
+.home-summary {
+  max-width: 720px;
+}
+
 .people-spotlight {
   display: grid;
-  grid-template-columns: minmax(220px, 0.6fr) minmax(0, 1.4fr);
+  grid-template-columns: minmax(150px, 210px) minmax(0, 1.5fr);
   gap: 1.35rem;
   align-items: start;
 }
 
 .people-spotlight__photo img {
   width: 100%;
+  aspect-ratio: 1 / 1.15;
+  object-fit: cover;
 }
 
 .empty-state {
@@ -436,6 +442,31 @@ blockquote {
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.6);
   color: $text-soft;
+}
+
+.subpage-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.5rem 0;
+}
+
+.subpage-tabs__link {
+  padding: 0.6rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(31, 95, 139, 0.12);
+  color: $text-color;
+  font-weight: 600;
+}
+
+.detail-section {
+  padding: 1.4rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  box-shadow: 0 22px 45px -42px $shadow-color;
 }
 
 .pagination {

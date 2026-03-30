@@ -25,80 +25,29 @@ layout: default
   </div>
 </section>
 
-<section class="pi-panel">
-  <div class="pi-panel__content">
-    <p class="section-kicker">Principal Investigator</p>
-    <h2>{{ site.data.people.pi.name }}</h2>
-    <p class="pi-panel__title">{{ site.data.people.pi.title }}</p>
-    <p class="pi-panel__affiliation">{{ site.data.people.pi.affiliation }}</p>
-    <p>{{ site.data.people.pi.bio }}</p>
-  </div>
-
-  <div class="pi-panel__links">
-    <a class="quick-links__item" href="mailto:{{ site.data.people.pi.email }}">
-      <span class="quick-links__label">Email</span>
-      <span class="quick-links__value">{{ site.data.people.pi.email }}</span>
-    </a>
-    <a class="quick-links__item" href="{{ site.data.people.pi.cv_url }}" target="_blank" rel="noopener noreferrer">
-      <span class="quick-links__label">Curriculum Vitae</span>
-      <span class="quick-links__value">Open CV</span>
-    </a>
-    <a class="quick-links__item" href="{{ site.data.people.pi.scholar_url }}" target="_blank" rel="noopener noreferrer">
-      <span class="quick-links__label">Google Scholar</span>
-      <span class="quick-links__value">Research profile</span>
-    </a>
-    <a class="quick-links__item" href="{{ site.data.people.pi.department_url }}" target="_blank" rel="noopener noreferrer">
-      <span class="quick-links__label">Department</span>
-      <span class="quick-links__value">UTK MAE</span>
-    </a>
-  </div>
-</section>
-
 <section class="home-feature-grid">
   <article class="feature-card">
-    <p class="section-kicker">Research</p>
-    <h2>Current Themes</h2>
-    <p>Explore ongoing work in turbulent boundary layers, aeroacoustics, large-eddy simulation, and data-driven wall modeling.</p>
-    <a class="feature-card__link" href="{{ '/research/' | relative_url }}">Browse research</a>
-  </article>
-
-  <article class="feature-card">
-    <p class="section-kicker">People</p>
-    <h2>Group Members</h2>
-    <p>The website is now structured to support graduate students, undergraduate students, visiting students, and future alumni updates.</p>
-    <a class="feature-card__link" href="{{ '/people/' | relative_url }}">View people</a>
-  </article>
-
-  <article class="feature-card">
-    <p class="section-kicker">Publications</p>
-    <h2>Scholarly Output</h2>
-    <p>See journal papers, conference papers, and thesis work in one organized place with direct links.</p>
-    <a class="feature-card__link" href="{{ '/publications/' | relative_url }}">View publications</a>
+    <p class="section-kicker">Focus Area</p>
+    <h2>Turbulent Flow Physics</h2>
+    <p>Fundamental and applied studies of nonequilibrium turbulence, turbulent boundary layers, and complex flow behavior.</p>
   </article>
   <article class="feature-card">
-    <p class="section-kicker">Teaching</p>
-    <h2>Courses and Mentoring</h2>
-    <p>Teaching and mentoring remain easy to update while fitting into the broader group website structure.</p>
-    <a class="feature-card__link" href="{{ '/teaching/' | relative_url }}">See teaching</a>
+    <p class="section-kicker">Focus Area</p>
+    <h2>Modeling and Computation</h2>
+    <p>Large-eddy simulation, wall modeling, and high-fidelity computational tools for challenging engineering flows.</p>
+  </article>
+  <article class="feature-card">
+    <p class="section-kicker">Focus Area</p>
+    <h2>Data-Driven Methods</h2>
+    <p>Physics-informed and machine-learning-based approaches for turbulence modeling, prediction, and analysis.</p>
   </article>
 </section>
 
-<section class="home-sections home-sections--with-panel">
-  <div class="home-sections__content">
-    {{ content }}
+<section class="home-summary">
+  <div class="sidebar-card">
+    <p class="section-kicker">Research Group</p>
+    <h2>Based at the University of Tennessee, Knoxville</h2>
+    <p>{{ site.data.group.office }}</p>
+    <p><a href="{{ site.data.group.department_url }}" target="_blank" rel="noopener noreferrer">Department of Mechanical and Aerospace Engineering</a></p>
   </div>
-  <aside class="home-sections__aside">
-    <div class="sidebar-card">
-      <p class="section-kicker">Location</p>
-      <h3>University of Tennessee, Knoxville</h3>
-      <p>{{ site.data.group.office }}</p>
-      <p><a href="{{ site.data.group.department_url }}" target="_blank" rel="noopener noreferrer">Department of Mechanical and Aerospace Engineering</a></p>
-    </div>
-    <div class="sidebar-card">
-      <p class="section-kicker">More</p>
-      <h3>Additional Pages</h3>
-      <p>Secondary personal content, including hiking, now lives under a dedicated More section.</p>
-      <p><a href="{{ '/more/' | relative_url }}">Explore more</a></p>
-    </div>
-  </aside>
 </section>

@@ -18,6 +18,7 @@ published: true
     <p>{{ site.data.people.pi.bio }}</p>
     <p><a href="mailto:{{ site.data.people.pi.email }}">{{ site.data.people.pi.email }}</a></p>
     <p><a href="{{ site.data.people.pi.cv_url }}" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a> | <a href="{{ site.data.people.pi.scholar_url }}" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
+    <p><a class="feature-card__link" href="{{ '/people/pi/' | relative_url }}">View detailed PI information</a></p>
   </div>
 </section>
 
