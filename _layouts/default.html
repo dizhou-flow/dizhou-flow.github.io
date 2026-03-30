@@ -2,49 +2,46 @@
 # layout: compress
 ---
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="google-site-verification" content="4u4Y1sSh6v3NCSOimIe3h1wSW3os9duYVUEquys8epE"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/academicons.min.css"/>
 
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <meta name="google-site-verification" content="4u4Y1sSh6v3NCSOimIe3h1wSW3os9duYVUEquys8epE"/>
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/academicons.min.css"/>
+    {% seo %}
+    {% include favicon.html %}
 
-        <h1 class="post-headline">{{site.title}}</h1>
-        <h3 class="post-description">{{site.description}}</h3>
+    <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+  </head>
 
-        {% include navigation.html %}
+  <body class="page-{{ page.title | default: 'untitled' | slugify }}">
+    <div class="site-shell">
+      {% include navigation.html %}
 
-        {% seo %}
+      <main class="site-main">
+        {% unless page.url == '/' %}
+          <section class="page-intro">
+            <p class="page-intro__eyebrow">Personal Website</p>
+            <h1 class="page-intro__title">{{ page.title }}</h1>
+          </section>
+        {% endunless %}
 
-        {% include favicon.html %}
+        <article class="content-card{% if page.url == '/' %} content-card--home{% endif %}">
+          {{ content }}
+        </article>
+      </main>
 
-        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
-        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+      <footer class="site-footer">
+        <div class="site-footer__content">
+          <p class="site-footer__title">{{ site.title }}</p>
+          <p class="site-footer__text">{{ site.description }}</p>
+          {% include social-footer.html %}
+        </div>
+      </footer>
+    </div>
 
-    </head>
-
-    <body>
-        <main>
-            <article>
-                {{ content }}
-            </article>
-        </main>
-
-        <footer>
-        <!-- start custom footer snippets -->
-        &nbsp;
-        <p>
-        &nbsp;
-        <!-- end custom footer snippets -->    
-
-        {% include social-footer.html %}
-
-        </footer>
-
-        {% include google-analytics.html %}
-
-    </body>
-
+    {% include google-analytics.html %}
+  </body>
 </html>

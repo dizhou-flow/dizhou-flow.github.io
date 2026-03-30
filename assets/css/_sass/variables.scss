@@ -1,26 +1,30 @@
 $base-font-family: 'Work Sans', sans-serif;
-$base-font-size:   16px;
+$display-font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+$base-font-size: 17px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.7;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.8;
 
-$spacing-unit:     30px;
-$light-gray: gray;
-$text-color:       #333;
-$background-color: #fdfdfd;
-$brand-color:      #60c17d;
+$spacing-unit: 30px;
+$light-gray: #c5cfdb;
+$background-color: #f6f1e8;
+$surface-color: rgba(255, 255, 255, 0.78);
+$surface-strong: #fffdf9;
+$text-color: #22313f;
+$text-soft: #576779;
+$brand-color: #1f5f8b;
+$brand-accent: #bf7b30;
+$brand-muted: #dfe8f0;
+$border-color: rgba(34, 49, 63, 0.12);
+$shadow-color: rgba(23, 37, 52, 0.12);
 
-// Color scheme for light
-$body-bg: #fdfdfd;
-$projectbox: #cfe6a4;
-$text-color: #333;
+$body-bg: #f7f1e7;
+$projectbox: #e5edf5;
 
-// Color scheme for dark modes
 $body-bg-dark: #061725;
 $projectbox-dark: lighten($body-bg-dark, 10%);
-$text-color-dark: #777;
+$text-color-dark: #d9e2ec;
 
-// Colour palette for project boxes
 $theme1: ("one",#388087),("two", #6FB3B8),("three",#BADFE7),("four",#C2EDCE),("five",#F6F6F2);
 $theme2: ("one",#E8DFE0),("two", #8D9B6A),("three",#8A9EA7),("four",#DAB692),("five",#8F5B34);
 $theme3: ("one",#78AAC3),("two", #C4DEED),("three",#97C8D6),("four",#EEAB74),("five",#F3CD86), ("six",#F5A280);

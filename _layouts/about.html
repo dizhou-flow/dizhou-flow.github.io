@@ -2,10 +2,52 @@
 layout: default
 ---
 
-{% if page.profile %}
-    {% if page.profile.image %}
-      <img class="profile {{ page.profile.align }}"  width="25%" src="{{ page.profile.image | prepend: '/assets/images/' | prepend: site.baseurl | prepend: site.url }}">
-    {% endif %}
-{% endif %}
+<section class="hero">
+  <div class="hero__content">
+    <p class="hero__eyebrow">{{ site.description }}</p>
+    <h1 class="hero__title">{{ site.title }}</h1>
+    <p class="hero__lede">
+      Di Zhou is an Assistant Professor in the Department of Mechanical and Aerospace Engineering at the University of Tennessee, Knoxville. His research focuses on the physics and modeling of turbulent flows using both physics-based and data-driven methods.
+    </p>
 
-{{ content }}
+    <div class="hero__actions">
+      <a class="button button--primary" href="{{ '/publications/' | relative_url }}">View Publications</a>
+      <a class="button button--secondary" href="https://drive.google.com/file/d/1T77gUhsmlUMAFoUza29HMZeWZDUIY0RX/view?usp=share_link" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
+    </div>
+  </div>
+
+  {% if page.profile and page.profile.image %}
+    <div class="hero__media">
+      <div class="profile-card">
+        <img
+          class="profile-card__image"
+          src="{{ page.profile.image | prepend: '/assets/images/' | prepend: site.baseurl | prepend: site.url }}"
+          alt="{{ site.title }}"
+        >
+      </div>
+    </div>
+  {% endif %}
+</section>
+
+<section class="quick-links" aria-label="Highlights">
+  <a class="quick-links__item" href="mailto:dzhou6@utk.edu">
+    <span class="quick-links__label">Email</span>
+    <span class="quick-links__value">dzhou6@utk.edu</span>
+  </a>
+  <a class="quick-links__item" href="https://scholar.google.com/citations?user=x85eynIAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">
+    <span class="quick-links__label">Google Scholar</span>
+    <span class="quick-links__value">Research profile</span>
+  </a>
+  <a class="quick-links__item" href="{{ '/research/' | relative_url }}">
+    <span class="quick-links__label">Research</span>
+    <span class="quick-links__value">Current projects</span>
+  </a>
+  <a class="quick-links__item" href="{{ '/teaching/' | relative_url }}">
+    <span class="quick-links__label">Teaching</span>
+    <span class="quick-links__value">Courses and mentoring</span>
+  </a>
+</section>
+
+<section class="home-sections">
+  {{ content }}
+</section>

@@ -1,16 +1,27 @@
-/* Footer */
-footer {
-    clear: both;
-    margin-top: 2em;
+.site-footer {
+  margin-top: 2.5rem;
+  border-top: 1px solid $border-color;
+  padding: 1.75rem 0 0.5rem;
 }
 
-/* Footer navigation links */
-.links a {
-    margin-right: 1em;
+.site-footer__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  align-items: center;
+  text-align: center;
 }
 
-/* Footer copyrights */
-.copy {
-    color: #aaa;
-    text-align: center;
+.site-footer__title {
+  margin: 0;
+  font-family: $display-font-family;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.site-footer__text {
+  margin: 0;
+  color: $text-soft;
 }

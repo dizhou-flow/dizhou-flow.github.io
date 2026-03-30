@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <div class="site-branding">
+      <a class="site-branding__home" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <p class="site-branding__tagline">{{ site.description }}</p>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary">
+      {% for item in site.data.navigation %}
+        {% assign is_external = item.external | default: false %}
+        {% assign is_active = false %}
+        {% unless is_external %}
+          {% if page.url == item.url %}
+            {% assign is_active = true %}
+          {% endif %}
+        {% endunless %}
+        <a
+          class="site-nav__link{% if is_active %} is-active{% endif %}"
+          href="{% if is_external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
+          {% if is_external %}target="_blank" rel="noopener noreferrer"{% endif %}
+        >
+          {{ item.title }}
+        </a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
