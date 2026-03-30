@@ -1,15 +1,12 @@
-- title: About
+- title: Home
   url: /
-- title: Publications
-  url: /publications/
 - title: Research
   url: /research/
-- title: Presentations
-  url: /presentations/
+- title: People
+  url: /people/
+- title: Publications
+  url: /publications/
 - title: Teaching
   url: /teaching/
-- title: Hiking
-  url: /hiking/
-- title: CV
-  url: https://drive.google.com/file/d/1T77gUhsmlUMAFoUza29HMZeWZDUIY0RX/view?usp=share_link
-  external: true
+- title: More
+  url: /more/

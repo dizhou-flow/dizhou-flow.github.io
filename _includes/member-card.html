@@ -1,0 +1,24 @@
+<article class="member-card">
+  <div class="member-card__photo-wrap">
+    {% if include.person.photo %}
+      <img
+        class="member-card__photo"
+        src="{{ include.person.photo | prepend: '/assets/images/' | prepend: site.baseurl | prepend: site.url }}"
+        alt="{{ include.person.name }}"
+      >
+    {% else %}
+      <div class="member-card__photo member-card__photo--placeholder" aria-hidden="true"></div>
+    {% endif %}
+  </div>
+
+  <div class="member-card__body">
+    <h3 class="member-card__name">{{ include.person.name }}</h3>
+    <p class="member-card__role">{{ include.person.role }}</p>
+    {% if include.person.email %}
+      <p class="member-card__meta"><a href="mailto:{{ include.person.email }}">{{ include.person.email }}</a></p>
+    {% endif %}
+    {% if include.person.website %}
+      <p class="member-card__meta"><a href="{{ include.person.website }}" target="_blank" rel="noopener noreferrer">Personal website</a></p>
+    {% endif %}
+  </div>
+</article>

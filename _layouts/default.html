@@ -23,7 +23,7 @@
       <main class="site-main">
         {% unless page.url == '/' %}
           <section class="page-intro">
-            <p class="page-intro__eyebrow">Personal Website</p>
+            <p class="page-intro__eyebrow">{{ site.data.group.name }}</p>
             <h1 class="page-intro__title">{{ page.title }}</h1>
           </section>
         {% endunless %}
@@ -35,8 +35,8 @@
 
       <footer class="site-footer">
         <div class="site-footer__content">
-          <p class="site-footer__title">{{ site.title }}</p>
-          <p class="site-footer__text">{{ site.description }}</p>
+          <p class="site-footer__title">{{ site.data.group.name }}</p>
+          <p class="site-footer__text">{{ site.data.group.tagline }}</p>
           {% include social-footer.html %}
         </div>
       </footer>

@@ -222,6 +222,10 @@ blockquote {
   margin-bottom: 1.5rem;
 }
 
+.hero--group {
+  margin-bottom: 2rem;
+}
+
 .hero__content {
   padding: 2rem;
   border-radius: 32px;
@@ -336,6 +340,104 @@ blockquote {
   color: $text-soft;
 }
 
+.section-kicker {
+  margin: 0 0 0.45rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: $brand-accent;
+}
+
+.pi-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(320px, 0.9fr);
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.pi-panel__content,
+.sidebar-card,
+.feature-card,
+.people-spotlight {
+  padding: 1.5rem;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  box-shadow: 0 22px 45px -42px $shadow-color;
+}
+
+.pi-panel__title,
+.people-spotlight__title {
+  margin-bottom: 0.2rem;
+  color: $text-soft;
+  font-weight: 700;
+}
+
+.pi-panel__affiliation {
+  margin-bottom: 0.9rem;
+}
+
+.pi-panel__links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.home-feature-grid,
+.more-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.feature-card h2 {
+  margin-bottom: 0.55rem;
+}
+
+.feature-card p:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.feature-card__link {
+  font-weight: 700;
+}
+
+.home-sections--with-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.8fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.home-sections__content {
+  min-width: 0;
+}
+
+.home-sections__aside {
+  display: grid;
+  gap: 1rem;
+}
+
+.people-spotlight {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.6fr) minmax(0, 1.4fr);
+  gap: 1.35rem;
+  align-items: start;
+}
+
+.people-spotlight__photo img {
+  width: 100%;
+}
+
+.empty-state {
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.6);
+  color: $text-soft;
+}
+
 .pagination {
   margin: 2em 0;
   text-align: center;
@@ -380,8 +482,19 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
+  .pi-panel,
+  .home-sections--with-panel,
+  .people-spotlight {
+    grid-template-columns: 1fr;
+  }
+
   .quick-links {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home-feature-grid,
+  .more-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -410,6 +523,10 @@ blockquote {
   }
 
   .quick-links {
+    grid-template-columns: 1fr;
+  }
+
+  .pi-panel__links {
     grid-template-columns: 1fr;
   }
 }
