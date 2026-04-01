@@ -225,7 +225,7 @@ blockquote {
 .hero--group {
   margin-bottom: 2rem;
   grid-template-columns: minmax(0, 1fr);
-  max-width: 820px;
+  max-width: 100%;
 }
 
 .hero__content {
@@ -420,10 +420,6 @@ blockquote {
 .home-sections__aside {
   display: grid;
   gap: 1rem;
-}
-
-.home-summary {
-  max-width: 720px;
 }
 
 .people-spotlight {
